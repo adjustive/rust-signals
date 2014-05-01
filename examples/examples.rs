@@ -25,4 +25,7 @@ fn main() {
 
     changed.emit();
     changed_again.emit();
+
+    changed.disconnect_all();
+    changed.emit();
 }

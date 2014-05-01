@@ -13,7 +13,7 @@ compile: out-dir
 examples:
 	rustc -o examples/examples -L build examples/examples.rs
 
-run:
+run: examples
 	examples/examples
 
 out-dir:
